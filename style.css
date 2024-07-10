@@ -1,0 +1,43 @@
+/* .shared-styles */
+    .azeret-mono-normal{
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+      }
+      
+    .t-color01{
+        color: #0D1321;
+    }
+    .t-color02{
+        color: rgba(13,19,33,0.7) ;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.nav-title{
+    font-weight: bolder;
+    font-size: 28px;
+    
+
+}
+
+
+nav a {
+    text-decoration: none;
+
+}
+nav button{
+    font-family:  "Azeret Mono", monospace;
+    font-weight: 600;
+    padding: 17px 24px;
+    background-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+}

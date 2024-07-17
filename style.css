@@ -305,7 +305,7 @@ nav button a{
     width: 809px;
     padding: 0;
   }
-  .target-heading > h2{
+  .common-heading {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 30px;
@@ -320,7 +320,7 @@ nav button a{
     height: 49px;
     margin-top: 22px;
   }
-  .target-paragraph>p{
+  .common-paragraph{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -332,11 +332,14 @@ nav button a{
   }
 
   .target-card-container{
+    
     display: flex;
     gap : 22px ;
     margin-top: 45px;
   }
   .target-card{
+    width: 345px;
+    height: 285px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -376,7 +379,7 @@ nav button a{
      height: 49px;
      margin-top: 7px;
   }
-  .t-card-paragraph > p{
+  .common-card-paragraph{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 15px;
@@ -399,8 +402,59 @@ nav button a{
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-     text-decoration-line: underline;
+    text-decoration-line: underline;
 
   }
+
+  .next-container{
+    margin-top:200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+   
+    
+  }
+
+  .next-heading{
+    
+    margin-top: 22px;
+    width: auto;
+  }
+  
+  .next-paragraph{
+    width: 809px;
+    height: 49px;
+    margin-top: 45px;
+  }
+
+  .next-card{
+    display: flex;
+    width: 1083px;
+    height: 209px;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    gap : 22px;
+    margin-top: 45px;
+  }
+  .next-card-right{
+    display: flex;
+    flex-direction: column;
+  }
+ .next-card-paragraph{
+  margin-top: 7px;
+ }
+ .next-card-link{
+  margin-top: 22px;
+ }
+
+
 
 

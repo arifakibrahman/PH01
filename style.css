@@ -57,7 +57,7 @@ nav button a{
 
 .container {
     margin-top: 26px;
-    background-image: url('./Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
   }
  
   
@@ -471,7 +471,7 @@ nav button a{
   height: 298px;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
-  background-image: url("./handshake.jpg");
+  background-image: url("./assets/handshake.jpg");
   padding: 64px 48px 64px 48px;
   background-size: cover; 
   background-position: center; 

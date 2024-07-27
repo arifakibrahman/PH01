@@ -57,7 +57,7 @@ nav button a{
 
 .container {
     margin-top: 26px;
-    background-image: url('Hero-bg.png');
+    background-image: url('./Hero-bg.png');
   }
  
   
@@ -99,6 +99,11 @@ nav button a{
     font-size: 20px;
     font-weight: 600 ;
     font-family: "Azeret Mono", monospace;
+    border : none; 
+  }
+  .banner-button a{
+    text-decoration: none;
+    color: inherit;
   }
 
   /* goals-container-style */
@@ -408,12 +413,14 @@ nav button a{
 
   .next-container{
     margin-top:200px;
+    width: 1083px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    
    
     
   }
@@ -454,6 +461,154 @@ nav button a{
  .next-card-link{
   margin-top: 22px;
  }
+ /* support-section-styles */
+.support-container{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1083px;
+  height: 298px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+  background-image: url("./handshake.jpg");
+  padding: 64px 48px 64px 48px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.support-heading>h2{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support-paragraph{
+  margin-top: 15px;
+  width: 575px;
+  height: 52px;
+}
+.support-paragraph>p{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+
+}
+.feedback-container{
+  margin-top: 22px ;
+  display: flex;
+  width: 649px;
+  height: 55px;
+  gap: 15px
+}
+.feedback-input{
+  margin : 0;
+  height: 100%;
+  width: 520px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+/* .feedback-input[type="text"]{
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+} */
+.feedback-input input[type="text"] {
+  padding: 19px 20px 19px 20px;
+  margin : 0;
+  height: 100%;
+  width: 520px;
+  box-sizing: border-box;
+  border: 0px solid white;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: 0;
+}
+
+.feedback-input input[type="text"]::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: 0;
+}
+.feedback-button > button{
+  width: 114px;
+  height: 100%;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  padding: 16px 19px 16px 19px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border : none ; 
+}
+
+footer {
+  width: 100%;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  margin-top: 76px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  padding: 32px;
+}
+
+.footer-paragraph {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 20px; 
+  justify-content: flex-end;
+}
+
+
+
+
+
 
 
 
